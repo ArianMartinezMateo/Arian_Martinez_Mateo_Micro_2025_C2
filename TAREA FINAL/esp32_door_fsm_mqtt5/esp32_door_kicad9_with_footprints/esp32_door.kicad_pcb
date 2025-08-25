@@ -1,0 +1,112 @@
+(kicad_pcb (version 20240115) (generator pcbnew)
+  (general (thickness 1.6))
+  (layers (0 "F.Cu" signal) (31 "B.Cu" signal) (44 "Edge.Cuts" user))
+  (setup (pad_to_mask_clearance 0))
+  (gr_rect (start 0 0) (end 100 80) (layer "Edge.Cuts") (width 0.1))
+  (fp_text user "ESP32_Door_Footprints" (at 10 10) (layer F.SilkS) (effects (font (size 1 1))))
+
+(footprint "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" (layer "F.Cu")
+  (at 37.3 40 90)
+  (property "Reference" "J-ESP32-L" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "PinHeader_1x15_P2.54mm_Vertical" (at 0 -2 0) (layer "F.Fab"))
+)
+
+
+(footprint "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" (layer "F.Cu")
+  (at 62.7 40 90)
+  (property "Reference" "J-ESP32-R" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "PinHeader_1x15_P2.54mm_Vertical" (at 0 -2 0) (layer "F.Fab"))
+)
+
+
+(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_5.08mm_Vertical" (layer "F.Cu")
+  (at 10 70 0)
+  (property "Reference" "J-PWR" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "TerminalBlock_Phoenix_MKDS-1,5-2_5.08mm_Vertical" (at 0 -2 0) (layer "F.Fab"))
+)
+
+
+(footprint "TerminalBlock_Phoenix:TerminalBlock_Phoenix_MKDS-1,5-2_5.08mm_Vertical" (layer "F.Cu")
+  (at 90 70 180)
+  (property "Reference" "J-MOTOR" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "TerminalBlock_Phoenix_MKDS-1,5-2_5.08mm_Vertical" (at 0 -2 0) (layer "F.Fab"))
+)
+
+
+(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
+  (at 80 20 90)
+  (property "Reference" "J-HBRIDGE-CTRL" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "PinHeader_1x03_P2.54mm_Vertical" (at 0 -2 0) (layer "F.Fab"))
+)
+
+
+(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
+  (at 95 15 0)
+  (property "Reference" "J-LSA" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "PinHeader_1x03_P2.54mm_Vertical" (at 0 -2 0) (layer "F.Fab"))
+)
+
+
+(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
+  (at 95 23 0)
+  (property "Reference" "J-LSC" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "PinHeader_1x03_P2.54mm_Vertical" (at 0 -2 0) (layer "F.Fab"))
+)
+
+
+(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
+  (at 95 31 0)
+  (property "Reference" "J-FTC" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "PinHeader_1x03_P2.54mm_Vertical" (at 0 -2 0) (layer "F.Fab"))
+)
+
+
+(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
+  (at 95 39 0)
+  (property "Reference" "J-KEYA" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "PinHeader_1x03_P2.54mm_Vertical" (at 0 -2 0) (layer "F.Fab"))
+)
+
+
+(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
+  (at 95 47 0)
+  (property "Reference" "J-KEYC" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "PinHeader_1x03_P2.54mm_Vertical" (at 0 -2 0) (layer "F.Fab"))
+)
+
+
+(footprint "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" (layer "F.Cu")
+  (at 95 55 0)
+  (property "Reference" "J-PP" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "PinHeader_1x03_P2.54mm_Vertical" (at 0 -2 0) (layer "F.Fab"))
+)
+
+
+(footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
+  (at 20 20 0)
+  (property "Reference" "D-LAMP" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "LED_D3.0mm" (at 0 -2 0) (layer "F.Fab"))
+)
+
+
+(footprint "LED_THT:LED_D3.0mm" (layer "F.Cu")
+  (at 25 20 0)
+  (property "Reference" "D-BUZZ" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "LED_D3.0mm" (at 0 -2 0) (layer "F.Fab"))
+)
+
+
+(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (layer "F.Cu")
+  (at 20 25 0)
+  (property "Reference" "R-LAMP" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (at 0 -2 0) (layer "F.Fab"))
+)
+
+
+(footprint "Resistor_THT:R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (layer "F.Cu")
+  (at 25 25 0)
+  (property "Reference" "R-BUZZ" (at 0 0 0) (layer "F.SilkS"))
+  (property "Value" "R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal" (at 0 -2 0) (layer "F.Fab"))
+)
+
+)
